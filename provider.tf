@@ -1,11 +1,3 @@
-terraform {
-  required_providers {
-    ibm = {
-      source  = "IBM-Cloud/ibm"
-          }
-  }
-}
-
 provider "ibm" {    
     ibmcloud_api_key = "PIVsewk3KK6jV8qXc_RUnuH4ObAjGPLAKwiq2oJ8HriD"
     region = "us-south"
