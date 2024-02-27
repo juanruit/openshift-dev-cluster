@@ -1,3 +1,11 @@
+terraform {
+  required_providers {
+    ibm = {
+      source  = "IBM-Cloud/ibm"
+          }
+  }
+}
+
 module "cluster" {
   source            = "./modules/cluster"
   name              = var.cluster_name

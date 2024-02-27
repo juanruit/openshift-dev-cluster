@@ -1,3 +1,11 @@
+terraform {
+  required_providers {
+    ibm = {
+      source  = "IBM-Cloud/ibm"
+          }
+  }
+}
+
 variable "ibmcloud_api_key" {
   type        = string
   default = ""
